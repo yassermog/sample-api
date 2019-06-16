@@ -1,0 +1,1 @@
+docker run -it -p 80:9999 amsboot
