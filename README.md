@@ -7,12 +7,13 @@
 1. maven build ... goal = docker:build 
 
 ## test the image localy : 
-1. test the image 
+
+1. create container and run it in interactive mode 
 ```
 bash run.sh
 ```
 
-1. test the image 
+2. test the image 
 open borwser to [http://localhost/sampleapi/](http://localhost/sampleapi/)
 
 
@@ -26,7 +27,7 @@ aws configure
 ```
 put the credetials provided from credetials.csv
 
-1. push the image to ecr 
+2. push the image to ecr 
 ```
 bash push_ecr.sh
 ```
